@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up to LearnScience</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="for_all.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- The header -->
+        <div id="header">
+            <img id='logo_pic' src="images/logo.jpg" alt="Logo of LearnScience" width="340" height="200">
+            <h1 id='comp_name'>LearnScience</h1>
+            <h3 style="color: black;"><i>Learn science by visualising and not just by reading.</i></h3>
+
+        </div>
+
+        <!-- The nav bar-->
+        <div class="nav-bar" id="top-nav-bar">
+            <p style="margin: 0px; color: white;">
+                <a href="index.html">Home</a>
+                <a href="#">Sections</a>
+                <a href="signup.html">Register/Login</a>
+                <a href="#">Contact Us</a>
+                <a href="#">About Us</a></p>
+        </div>
+
+        <div   id="nav-beautify">
+            <!-- Nothing here -->
+        </div>
+
+        <form action="" class= "form">
+            <h1>Register</h1>
+            
+            <div class="section">
+                <h2>Contact Details</h2>
+
+                <p>Name<br>
+                <input type="text" name="name" placeholder="Shivam Singh Aswal" required class="boxes">
+                </p>
+
+                <fieldset style="width: 85%; height: 50px;">
+                    <legend>Gender</legend>
+                    Male <input type="radio" name="gender" id="male"> 
+                    Female <input type="radio" name="gender" id="female">
+                    Other <input type="radio" name="gender" id="other"></p>
+                </fieldset>
+                
+
+                <p>Address <br>
+                <textarea name="address" id="address" class="boxes"></textarea></p>
+
+                <p>Pincode <br>
+                <input type="number" name="pincode" id="pincode" class="boxes"></p>
+
+                <p>Mobile No. <br>
+                <input type="number" name="user_number" id="number" required class="boxes"></p>
+
+                <p>Email <br>
+                <input type="email" name="uesr_email" id="email" required class="boxes"></p>
+
+                <p><br><input type="submit" value="Submit Only" class="boxes submit"></p>
+            </div>
+
+            <div class="section">
+                <h2>Payment Details</h2>
+                <p style="font-size: 14px; font-style: italic;">
+                    (You may support us by making contributions. It is not compulsory but appreciable)</p>
+
+                <p>Card Type: <br>
+                <select name="card_type" id="card_type" required class="boxes">
+                    <option value="">--Select a card type--</option>
+                    <option value="rupay">Rupay Card</option>
+                    <option value="master">Master Card</option>
+                    <option value="visa">Visa Card</option>
+                </select></p>
+                
+                <p>Card Number <br>
+                <input type="number" name="card_number" id="card_number" required class="boxes"></p>
+
+                <p>Expiry details <br>
+                <input type="date" name="exp_date" id="expJ_date" required class="boxes"></p>
+
+                <p>CVV <br>
+                <input type="password" name="cvv" id="cvv" required class="boxes"></p>
+
+                <p>Amount (in Rs.) <br>
+                <input type="number" name="amount" class="boxes">
+                </p>
+
+                <p>Comment <br>
+                <textarea name="comment" class="boxes"></textarea>
+                </p>
+
+                <p><br><input type="submit" value="Submit and Pay" class="boxes submit" id="pay"></p>
+            </div>
+        </form>
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body {
+    padding: 0px;
+    margin: 25px;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 5px;
+    width: 100%;
+}
+
+
+.form {
+    width: 100%;
+    background-color: rgb(226, 222, 222);
+    padding-bottom: 20px;
+}
+
+.form h1 {
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: rgb(13, 13, 78);
+
+}
+
+
+.section {
+    display: inline-block;
+    width: 30%;
+    margin-left: 11%;
+    margin-top: 20px;
+    padding: 25px;
+    background: white;
+    vertical-align: top;
+    /*height: 600px;*/
+}
+
+.section p {
+    font-size: 16px;
+    font-family: 'Calibri';
+}
+
+.section h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.boxes {
+    width: 90%; 
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#address {
+    height: 50px;
+}
+
+.boxes.submit {
+    background-color: rgb(47, 134, 47);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    height: 40px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+}

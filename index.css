@@ -1,0 +1,77 @@
+.container {
+    width: 96%;
+    margin: 2%;
+    margin-top: 0.7%;
+    /* border: 5px solid red; */
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    color: black;
+    background-color: black;
+}
+
+#body-content {
+    position: relative;
+    width: 98%;
+    margin: 1%;
+    /* top: 0px; */
+}
+
+#sections {
+    width: 100%;
+    height: auto;
+}
+
+.section-div {
+    height: auto;
+    overflow: auto;
+}
+
+.section-div h2 {
+    margin-bottom: 25px;
+    font-family: gabriola;
+    font-size: 3.2em;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+.section-div p {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#physics {
+    text-align: right;
+}
+
+#chemistry {
+    text-align: left;
+}
+
+#math {
+    text-align: right;
+}
+
+#physics-img {
+    float: left;
+    margin: 50px 50px 50px 0px 
+}
+
+#chemistry-img {
+    float: right;
+    margin: 75px 0px 50px 50px
+}
+
+#math-img {
+    float: left;
+    margin: 50px 50px 50px 0px
+}
+
+
+
+#footer {
+    position: relative;
+}
